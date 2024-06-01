@@ -70,11 +70,6 @@ Amazon EC2 Dedicated computing
 
 Auto Scaling
 
-        !.Nano instance can handle 100
-        2. min 
-        3. 1000 avg
-        4. 10k capacity
-
 ### Elastic Load Balancing
 
 Unbalanced
