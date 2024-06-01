@@ -53,3 +53,30 @@ Control access with AWS Identitiy and Access Management
 
 SCPs enable you to allow or deny access to AWS services for individuals or group accounts in an organizational unit (OU)
 
+Amazon EC2 Pricing
+    
+    On-Demand :- Start & stop wehn needed instantly
+    Spot :- Flexible allocation when avaliable on spot
+    Reserved :- committed for 1 to 3 years
+    Compute Saving Plan :- saving upto 66% on compute usage
+
+Amazon EC2 Dedicated computing
+    
+    Dedicated instance
+    Dedicated host - most expensive
+    higher cost
+    suitable for complicance
+    reduction in cost by resercved instance
+
+Auto Scaling
+
+        !.Nano instance can handle 100
+        2. min 
+        3. 1000 avg
+        4. 10k capacity
+
+### Elastic Load Balancing
+
+Unbalanced
+
+Balanced
