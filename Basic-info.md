@@ -80,3 +80,19 @@ Auto Scaling
 Unbalanced
 
 Balanced
+
+Load Balancer Types :-
+HTTP
+
+
+### PUB/SUB Messaging model
+
+SQS :- Simple queuing servive 
+
+SNS :- Simple notification service
+
+### AWS Lambda
+
+I don't have to manage my code,take my code and deploy it in lambda
+
+it is called as Serverless compute service
