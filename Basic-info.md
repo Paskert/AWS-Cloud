@@ -111,3 +111,39 @@ Subnets:
 • Belong to a single Availability Zone
 
 • Classified as public or private
+
+
+
+You can connect VPCs in your own AWS.account, between AW's accounts, or between AWS Regions
+
+Restrictions:
+
+IP spaces cannot overlap.
+
+Transitive peering is not supported.
+
+You can only have one peering resource between the same two VPCS
+
+
+### AWS Direct Connect
+
+aws direct connect is a service which would provide secure connection from the customer to the cloud
+
+### Security groups (2 of 2)
+
+    they act at instance level
+    Security groups have rules that control inbound and outbound instance traffic
+    Default security groups deny all inbound traffic and allow all cutbound traffic    
+    Security groups are stateful.
+
+### Network access control list
+    Network access control lists (network ACLS 2 of 2)
+    A network ACL has separate inbound and outbound rules, and each rule can either allow or deny traffic 
+    Default network ACLS allow all inbound and outbound IPv4 traffic 
+    Network ACLs are stateless.
+
+### Custom network ACLS examples
+    
+    Custom network ACLs deny all inbound and outbound traffic until you add rules. 
+    You can specify both allow and deny rules.
+    Rules are evaluated in number order, starting with the lowest number
