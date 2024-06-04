@@ -91,3 +91,23 @@ SNS :- Simple notification service
 I don't have to manage my code,take my code and deploy it in lambda
 
 it is called as Serverless compute service
+
+------------------------------------------- DAY 4 ------------------------------------------------
+
+VPCs and subnets
+
+VPCS:
+
+• Logically isolated from other VPCS
+
+• Dedicated to your AWS account
+
+• Belong to a single AWS Region and can span multiple Availability Zones
+
+Subnets:
+
+• Range of ip addresses that divide a VPC
+
+• Belong to a single Availability Zone
+
+• Classified as public or private
